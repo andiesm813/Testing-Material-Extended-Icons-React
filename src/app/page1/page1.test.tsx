@@ -1,9 +1,9 @@
 import { expect, test } from 'vitest';
 import { render } from '@testing-library/react';
-import MasterView from './master-view';
+import Page1 from './page1';
 import 'element-internals-polyfill';
 
-test('renders MasterView component', () => {
-  const wrapper = render(<MasterView />);
+test('renders Page1 component', () => {
+  const wrapper = render(<Page1 />);
   expect(wrapper).toBeTruthy();
 });
